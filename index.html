@@ -26,8 +26,9 @@
 
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/stichoza.css" id="theme">
+		<link rel="stylesheet" href="css/style_additions.css" id="theme">
 		<link rel="stylesheet" href="lib/font/fa/font-awesome.min.css">
-		<link rel="stylesheet" href="lib/css/zenburn.css"><!-- TODO change with Monokai -->
+		<link rel="stylesheet" href="lib/css/monokai.css"><!-- TODO change with Monokai -->
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
@@ -86,7 +87,37 @@
 				<div class="fragment" data-fragment-index="5">Memory Profiling</div>
 			</section>
 			<section>
-				<section data-background-color="rgba( 0, 0, 0, 0.6 )">
+				<section>
+					<h1>old times</h1>
+					<div class="fragment" data-fragment-index="0">no debuggers</div>
+					<div class="fragment" data-fragment-index="1">early debuggers</div>
+					<div class="fragment" data-fragment-index="2">lazy <code>alert()</code></div>
+				</section>
+				<section>
+					<img src="img/console-with-error.png">
+				</section>
+				<section>
+					<pre><code data-trim>
+.sidebar-levels h3 a {
+  transition: border-color 0.2s ease-in-out;
+  border: 2px solid #bebebe;
+  border-radius: 50%;
+  color: #777777;
+  display: block;
+  margin-top: 7px;
+  text-align: center;
+  width: 30px;
+}
+@media screen and (min-width: 1060px) {
+  .sidebar-levels h3 a {
+    margin-right: 30px;
+  }
+}
+					</code></pre>
+				</section>
+			</section>
+			<section data-background-color="rgba( 0, 0, 0, 0.6 )">
+				<section>
 						<h2>DOM and CSS</h2>
 					<div class="fragment" data-fragment-index="0">Document Object Model &nbsp; &amp; &nbsp; Styles</div>
 					<div><br></div>
@@ -118,7 +149,6 @@
 				progress: true,
 				history: true,
 				center: true,
-
 				background_transition:"fade",
 				transition:"concave",
 				theme_id:null,
