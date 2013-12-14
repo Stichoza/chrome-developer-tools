@@ -88,15 +88,17 @@
 			</section>
 			<section>
 				<section>
-					<h1>old times</h1>
+					<h1>bad old times</h1>
 					<div class="fragment" data-fragment-index="0">no debuggers</div>
 					<div class="fragment" data-fragment-index="1">early debuggers</div>
 					<div class="fragment" data-fragment-index="2">lazy <code>alert()</code></div>
 				</section>
 				<section>
+					<h2>JavaScript</h2>
 					<img src="img/console-with-error.png">
 				</section>
 				<section>
+					<h2>CSS</h2>
 					<pre><code data-trim>
 .sidebar-levels h3 a {
   transition: border-color 0.2s ease-in-out;
@@ -115,24 +117,75 @@
 }
 					</code></pre>
 				</section>
+				<section>
+					<h1>
+						<i class="fa-code" style="font-size:1.2em"></i>
+						&nbsp;&nbsp;
+						<i class="fa-save" style="font-size:1.1em"></i>
+						&nbsp;&nbsp;
+						<i class="fa-desktop"></i>
+					</h1>
+					<br>
+					<span>
+						Edit&nbsp;&nbsp;&nbsp;&nbsp;
+						<i class="fa-exchange"></i>
+						&nbsp;&nbsp;&nbsp;&nbsp;Save&nbsp;&nbsp;&nbsp;&nbsp;
+						<i class="fa-exchange"></i>
+						&nbsp;&nbsp;&nbsp;&nbsp;Test
+					</span>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Chrome<br>Developer<br>Tools</h1>
+				</section>
+				<section>
+					<img src="img/chrome-preview-network.png">
+				</section>
+				<section>
+					<div><img src="img/chrome-preview-timeline-events.png"></div>
+					<div class="fragment" data-fragment-index="0"><img src="img/chrome-preview-timeline-frames.png"></div>
+					<div class="fragment" data-fragment-index="1"><img src="img/chrome-preview-timeline-memory.png"></div>
+				</section>
 			</section>
 			<section data-background-color="rgba( 0, 0, 0, 0.6 )">
 				<section>
-						<h2>DOM and CSS</h2>
-					<div class="fragment" data-fragment-index="0">Document Object Model &nbsp; &amp; &nbsp; Styles</div>
-					<div><br></div>
-					<div><br></div>
-					<div class="fragment" data-fragment-index="1">
-						<h1>
-							<i class="fa-code" style="font-size:1.2em"></i>
-							&nbsp;&nbsp;
-							<i class="fa-save" style="font-size:1.1em"></i>
-							&nbsp;&nbsp;
-							<i class="fa-desktop"></i>
-						</h1>
-						<br>
-						<span>Edit&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Save&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Test</span>
+					<h1>Elements</h1>
+					<h2 class="fragment" data-fragment-index="0">DOM and CSS</h2>
+					<div class="fragment" data-fragment-index="1">Document Object Model and Styles</div>
+				</section>
+				<section>
+					<h2>Let's see in action</h2>
+				</section>
+			</section>
+			<section data-background-color="rgba( 0, 0, 0, 0.6 )">
+				<section>
+					<h2>Raw JavaScript</h2>
+					<pre><code data-trim>
+function hello(name) {
+  if (name.length > 16) {
+    alert("No!");
+  } else {
+    alert("Hi " + name + "!");
+  }
+}
+					</code></pre>
+					<div class="fragment" data-fragment-index="0">
+						<h2>Minified JavaScript</h2>
+						<pre><code data-trim>
+function hello(n){if(n.length>16){alert("No!");}else{alert("Hi "+n+"!");}}
+						</code></pre>
 					</div>
+				</section>
+				<section>
+					<img src="img/jquery-logo.png">
+					<br>
+					<h3>
+						Raw JavaScript:&nbsp;&nbsp;&nbsp;&nbsp;<span class="fragment" data-fragment-index="0"><strong>226 KB</strong></span>
+						<span class="fragment" data-fragment-index="1">!!!</span>
+					</h3>
+					<h3>Min Version:&nbsp;&nbsp;&nbsp;&nbsp;<span class="fragment" data-fragment-index="2"><strong>89 KB</strong></span></h3>
+					<h3 class="fragment" data-fragment-index="3">226 / 89 ≈ <strong>2.5</strong></h3>
 				</section>
 			</section>
 		</div>
