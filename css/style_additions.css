@@ -1,0 +1,13 @@
+.controls {
+	zoom: 0.8;
+	opacity: 0.2;
+	-webkit-transition: opacity .25s ease-out;
+	   -moz-transition: opacity .25s ease-out;
+	    -ms-transition: opacity .25s ease-out;
+	     -o-transition: opacity .25s ease-out;
+	        transition: opacity .25s ease-out;
+}
+
+.controls:hover {
+	opacity: 0.9;
+}
